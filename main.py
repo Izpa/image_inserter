@@ -3,6 +3,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 def insert_image(img_path: str, background_path: str, output_path: str,
                  pos: (int, int) = None):
+    """
+    Вставляет изображение
+    """
     img = Image.open(img_path, 'r')
     img_w, img_h = img.size
     background = Image.open(background_path, 'r')
