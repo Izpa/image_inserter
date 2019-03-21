@@ -1,0 +1,6 @@
+.idea
+*.iml
+.env
+bmp/bmp.generate_client_docs/*.png
+bmp/bmp.generate_client_docs/*.xlsx
+meta/meta.bigquery_table_operation/bq_tmp/
